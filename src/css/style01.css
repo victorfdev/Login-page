@@ -1,0 +1,162 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+:root {
+    font-size: 62.5%;
+}
+aside h1 {
+    color: #8400ff;
+    font-size: 50px;
+    font-weight: 500px;
+    line-height: 60px;
+    margin-left: 150px;
+    
+}
+
+aside span {
+    color: #b1da11;
+}
+
+.img-logo {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    margin: 70px 0 0 150px;
+}
+
+main {
+    display: block;
+    margin-left: 800px;
+    margin-right: 200px;
+    margin-top: -470px;
+    padding: 0%;
+    width: 45rem;
+    height: 52rem;
+    /* border: 0.1rem solid #9011da; */
+}
+
+
+main p {
+    color: #1a202c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+main h2  {
+    color: #1a202c;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+main .p2 {
+    color: #1a202c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+label {
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#email, #password {
+    padding: 10px;
+    width: 330px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0.1rem solid #5711da;
+    border-radius: 0.5rem;
+}
+
+#remember {
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 10px;
+}	
+
+img {
+    margin-right: 10px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+main button {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    padding: 2x;
+    justify-content: center;
+    width: 330px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+main .button {
+    color: white;
+    background-color: #5711da; 
+}
+
+main .button:hover {
+    background-color: #c6fa39;
+    color: #000;
+}
+
+#forgot {
+    text-decoration: none;
+    padding: 10px;
+    color: #5711da;
+    font-size: 14px;
+    font-weight: 500;
+}	
+
+.p2 {
+    color: #1a202c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 120px;
+}
+
+.p2 a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #5711da;
+    font-weight: 500;
+}
