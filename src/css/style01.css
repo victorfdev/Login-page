@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 body {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 4rem;
     height: 100vh;
     margin: 0;
   }
@@ -17,10 +19,10 @@ body {
 }
 aside h1 {
     color: #8400ff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500px;
     line-height: 60px;
-    margin-left: 150px;
+    
     
 }
 
@@ -29,20 +31,13 @@ aside span {
 }
 
 .img-logo {
-    display: inline-block;
-    width: 450px;
-    height: 450px;
-    margin: 70px 0 0 150px;
+    display: none;
 }
 
 main {
-    display: block;
-    margin-left: 800px;
-    margin-right: 200px;
-    margin-top: -470px;
     padding: 0%;
-    width: 45rem;
-    height: 52rem;
+    
+  
     /* border: 0.1rem solid #9011da; */
 }
 
@@ -66,7 +61,8 @@ main .p2 {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 50px;
+
+    
 }
 
 label {
@@ -149,9 +145,9 @@ main .button:hover {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 50px;
+  
     text-align: center;
-    margin-right: 120px;
+   
 }
 
 .p2 a {
@@ -159,4 +155,17 @@ main .button:hover {
     text-decoration: none;
     color: #5711da;
     font-weight: 500;
+}
+@media screen and (min-width: 60.25em){
+    body{
+        flex-direction:row;
+    }
+    .img-logo {
+        display: initial;
+        width: 42rem;
+        height: 42rem;
+    }
+    H1{
+        font-size: 50px;
+    }
 }
